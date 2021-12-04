@@ -1,0 +1,24 @@
+{
+  "name": "backend_website",
+  "version": "1.0.0",
+  "description": "NSS DTU official website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSSDTU/Backend_Website.git"
+  },
+  "author": "NSS DTU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NSSDTU/Backend_Website/issues"
+  },
+  "homepage": "https://github.com/NSSDTU/Backend_Website#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
