@@ -5,3 +5,7 @@ module.exports.home = function(req,res){
 module.exports.about = function(req,res){
     return res.render('about');
 }
+
+module.exports.team = function(req,res){
+    return res.render('team');
+}
