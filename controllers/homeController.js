@@ -9,3 +9,7 @@ module.exports.about = function(req,res){
 module.exports.team = function(req,res){
     return res.render('team');
 }
+
+module.exports.contact = function(req,res){
+    return res.render('contact');
+}
