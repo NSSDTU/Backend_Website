@@ -4,7 +4,7 @@ const router = express.Router();
 const homeController = require("../controllers/homeController");
 
 router.get('/',homeController.home);
-// router.get('/about',homeController.about);
+router.get('/about',homeController.about);
 router.get('/initiatives',homeController.initiatives);
 // router.get('/events',homeController.events);
 // router.get('/team',homeController.team);
