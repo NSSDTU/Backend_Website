@@ -16,3 +16,7 @@ module.exports.team = function(req,res){
 module.exports.contact = function(req,res){
     return res.render('contact');
 }
+
+module.exports.events = function(req,res){
+    return res.render('events');
+}

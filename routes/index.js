@@ -6,9 +6,9 @@ const homeController = require("../controllers/homeController");
 router.get('/',homeController.home);
 router.get('/about',homeController.about);
 router.get('/initiatives',homeController.initiatives);
+router.get('/events',homeController.events);
 router.get('/team',homeController.team);
 router.get('/contact',homeController.contact);
-// router.get('/events',homeController.events);
 
 /* 
 for any further requests, access from here
