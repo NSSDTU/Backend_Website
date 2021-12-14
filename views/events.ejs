@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/NSS-logo.png">
     <title>NSS DTU</title>
-
+    <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/style-event.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -19,42 +19,26 @@
 </head>
 <body>
 
-  <nav id="navbar" style="height:auto;position: fixed;background-color: transparent;display: flex;justify-content: space-around;z-index: 300;" class="navbar navbar-expand-sm navbar-dark ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/"><img src="/img/main-img/NSS-logo.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://nifty-kilby-048bf6.netlify.app/">Kartavya</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link  active" href="/events">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/initiatives-page">Initiatives</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact-page">Contact</a>
-          </li>
-         
-        </ul>
-       
-      </div>
-    </div>
-  </nav>
+    <nav id="navbar">
+        <div class="logo">
+          <img src="/img/NSS-logo.png" alt="">
+          <a href="/" class="nav-logo"><span class="menu">NSS DTU </span> </a>
+        </div>
+        <div class="nav" id="nav-menu">
+          <i class="fas fa-times" id="close-menu"></i>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="about" class="nav-link"><span class="menu">About</span></a></li>
+            <li class="nav-item"><a href="/team" class="nav-link"><span class="menu">Team</span></a></li>
+            <li class="nav-item"><a href="/events" class="nav-link"><span class="menu">Events</span></a></li>
+            <li class="nav-item"><a href="/initiatives" class="nav-link"><span class="menu"> Initiatives</span></a></li>
+            <li class="nav-item"><a href="/recruitment" class="nav-link"><span class="menu active">Recruitment</span></a></li>
+            <li class="nav-item"><a href="https://nifty-kilby-048bf6.netlify.app/" class="nav-link"><span class="menu">Kartavgya</span></a></li>
+            <li class="nav-item"><a href="/contact" class="nav-link"><span class="menu">Contact Us</span></a></li>
+          </ul>
+        </div>
+        <i class="fas fa-ellipsis-v" id="toggle-menu"></i>
+            
+      </nav>
 
     <header>
      <img src="/img/main-img/1.jpg" alt="">
@@ -232,29 +216,29 @@ We, at NSS DTU, urge everyone to donate blood and make a difference in someone's
 
 
     
-
-    <footer>
-        <div class="footer-right">
-          <button>Contact Us</button>
-      </div>
-        <div class="footer-mid">
-            <div class="socials">
-                <a href="https://www.linkedin.com/company/national-service-scheme-dtu/" class="social"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://www.instagram.com/nssdtu/" class="social"><i class="fab fa-instagram  fa-2x"></i></a>
-                <a href="https://www.facebook.com/NSSDelTech/" class="social"><i class="fab fa-facebook  fa-2x"></i></a>
-                <a href="https://twitter.com/NSSDTU" class="social"><i class="fab fa-twitter  fa-2x"></i></a>
-                <a href="https://www.youtube.com/channel/UCig231fNP39jVqghG4yJZKg" class="social"><i class="fab fa-youtube  fa-2x"></i></a>
-            </div>
-            <div class="copyright">
-                <h4>All rights reserved by <span>NSS DTU</span>  <br>  copyright &copy; 2021</h4>
-            </div>
-           
+      <footer>
+          <div class="footer-right">
+            <a href="/about"><button>Contact Us</button></a>
         </div>
+          <div class="footer-mid">
+              <div class="socials">
+                  <a href="https://www.linkedin.com/company/national-service-scheme-dtu/" class="social"><i class="fab fa-linkedin fa-2x"></i></a>
+                  <a href="https://www.instagram.com/nssdtu/" class="social"><i class="fab fa-instagram  fa-2x"></i></a>
+                  <a href="https://www.facebook.com/NSSDelTech/" class="social"><i class="fab fa-facebook  fa-2x"></i></a>
+                  <a href="https://twitter.com/NSSDTU" class="social"><i class="fab fa-twitter  fa-2x"></i></a>
+                  <a href="https://www.youtube.com/channel/UCig231fNP39jVqghG4yJZKg" class="social"><i class="fab fa-youtube  fa-2x"></i></a>
+              </div>
+              <div class="copyright">
+                  <h4>All rights reserved by <span>NSS DTU</span>  <br>  copyright &copy; 2021</h4>
+              </div>
+             
+          </div>
+  
+          <div class="footer-right">
+              <a href="/pdf/newsletter.pdf"><button class="btn-right">Read our Newsletter</button></a>
+          </div>
+      </footer>
 
-        <div class="footer-right">
-            <button class="btn-right">Read our Newsletter</button>
-        </div>
-    </footer>
 
 
 
