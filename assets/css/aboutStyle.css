@@ -171,9 +171,7 @@ footer{
 
 /*****responsiveness for laptops (start)******/
 @media only screen and (min-width: 70px) and (max-width: 1400px)  {
-    nav img{
-        margin: 0vh 18vw 0vh 10vw ;
-    }
+
     .about{
         display: block;
     }
@@ -192,21 +190,12 @@ footer{
         overflow-x: hidden;
         width: 100vw;
     }
-    nav img{
-    margin: 0vh 10vw 0vh 4vw ;   
-    }
-    .nav-item{
-        font-size: 1.1em;
-    }
+
     .footer-right button{
         height: 7vh;
     }
 }
-@media only screen and (min-width: 70px) and (max-width:770px){
-    nav img{
-        margin: 0vh 0vw 0vh 4vw ;   
-        }
-}
+
 /*****responsiveness for tablets (end)******/
 
 
@@ -218,20 +207,7 @@ footer{
         overflow-x: hidden;
         width: 100vw;
     }
-    .burger_menu{
-        position: fixed;
-        opacity: 100%;
-        background-color: rgb(29, 28, 28);
-    }
-    nav{
-        text-align: center;
-        position: sticky;
-        width: 100vw;
-        height: 75vh;
-    }
-    nav img{
-        margin: 0px;
-    }
+
   .header-content{
     top: 35vh;
     left: 10vw;
