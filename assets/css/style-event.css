@@ -29,42 +29,7 @@ body{
   }
 /*****scroll bar (end)******/
 
-/*****nav section (start)******/
-#burger{
-    position: absolute;
-    opacity: 0%;
-    cursor: pointer;
-}
-#close{
-    position: absolute;
-    opacity: 0%;
-    cursor: pointer;
-}
-.burger_menu{
-    position: absolute;
-    opacity: 0%;
-}
-nav{
-    
-    transition: all 0.3s ease;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    background-color: transparent;
-    position: fixed;
-    width: 100%;
-    /* opacity: 0.75; */
-    z-index: 1;
-}
-nav img{
-    width: 65px;
-    height: 65px;
-    margin: 0vh 30vw 0vh 14vw ;
-}
-.nav-item{
-    font-size: 1.3em;
-    margin: 0vh 2%;
-}
-/*****nav section (end)******/
+
 
 /*****header section (start)******/
 header{
@@ -197,9 +162,7 @@ footer{
 
 /*****responsiveness for laptops (start)******/
 @media only screen and (min-width: 70px) and (max-width: 1400px)  {
-    nav img{
-        margin: 0vh 18vw 0vh 10vw ;
-    }
+
     
     .img{
         width: 30vw;
@@ -216,22 +179,13 @@ footer{
         overflow-x: hidden;
         width: 100vw;
     }
-    nav img{
-    margin: 0vh 10vw 0vh 4vw ;   
-    }
-    .nav-item{
-        font-size: 1.1em;
-    }
+
     
     .footer-right button{
         height: 7vh;
     }
 }
-@media only screen and (min-width: 70px) and (max-width:770px){
-    nav img{
-        margin: 0vh 0vw 0vh 4vw ;   
-        }
-}
+
 /*****responsiveness for tablets (end)******/
 
 
@@ -243,20 +197,7 @@ footer{
         overflow-x: hidden;
         width: 100vw;
     }
-    .burger_menu{
-        position: fixed;
-        opacity: 100%;
-        background-color: rgb(29, 28, 28);
-    }
-    nav{
-        text-align: center;
-        position: sticky;
-        width: 100vw;
-        height: 75vh;
-    }
-    nav img{
-        margin: 0px;
-    }
+
   .header-content{
     top: 35vh;
     left: 10vw;
