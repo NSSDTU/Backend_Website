@@ -20,3 +20,7 @@ module.exports.contact = function(req,res){
 module.exports.events = function(req,res){
     return res.render('events');
 }
+
+module.exports.recruitment = function(req,res){
+    return res.render('recruitment');
+}
