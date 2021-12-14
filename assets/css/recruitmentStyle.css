@@ -71,7 +71,7 @@ ul{
   
   /* banner */
   .banner {
-    background-image: url('img/ScalinG.png');
+    background-image: url('img/recruitment/ScalinG.png');
     background-size: cover;
     background-position: center center;
     color: white;
@@ -130,7 +130,7 @@ ul{
   @media screen and (max-width:820px)
   {
       .banner{
-          background-image: url("./img/ScalinGmobile.png");
+          background-image: url("./img/recruitment/ScalinGmobile.png");
           background-position: inherit;
       }
   }
