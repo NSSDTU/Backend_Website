@@ -35,7 +35,7 @@ header{
     background-color: rgb(0, 38, 98);
     font-family: 'Nunito', sans-serif;
     position: relative;   
-    background: url('./bg.PNG') no-repeat center center/cover;
+    background: url('/img/initiative/bg.PNG') no-repeat center center/cover;
     height: 100vh;
     
     filter: blur(0.5px);
@@ -54,7 +54,7 @@ header{
 .rakt{
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./vecteezy_activism-illustration_wk0121_generated.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/img/initiative/vecteezy_activism-illustration_wk0121_generated.jpg') no-repeat center center/cover;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -118,7 +118,7 @@ header{
 .voa{
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url('./WhatsApp\ Image\ 2021-11-09\ at\ 10.18.36.jpeg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url('/img/initiative/WhatsApp\ Image\ 2021-11-09\ at\ 10.18.36.jpeg') no-repeat center center/cover;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
