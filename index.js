@@ -12,7 +12,7 @@ app.use('/',require('./routes'));
 app.set("view engine", "ejs");
 app.set("views", "./views");
 
-app.listen(port,function(err){
+app.listen(process.env.PORT || port,function(err){
     if(err){
         console.log(`Error encountered in running the server: ${err}`);     //interpolation string
         return;
