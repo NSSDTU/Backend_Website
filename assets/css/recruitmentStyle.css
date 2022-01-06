@@ -478,13 +478,6 @@ form .details .input-box{
     width: 100%;
   }
 
-  .content form .details{
-    max-height: 300px;
-    overflow-y: scroll;
-  }
-  .details::-webkit-scrollbar{
-    width: 5px;
-  }
   }
 
 
