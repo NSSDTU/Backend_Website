@@ -10,6 +10,7 @@ router.get('/events',homeController.events);
 router.get('/team',homeController.team);
 router.get('/contact',homeController.contact);
 router.get('/recruitment',homeController.recruitment);
+router.post('/recruitmentCapture',homeController.submit);
 
 /* 
 for any further requests, access from here

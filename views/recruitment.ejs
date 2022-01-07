@@ -140,83 +140,83 @@
       <div class="container">
         <div class="title">Recruitment</div>
         <div class="content">
-          <form action="#">
+          <form action="/recruitmentCapture" method="post">
             <!--pERSONAL Details-->
             <div class="details">
               <div class="input-box">
                 <span class="detail">Full Name</span>
-                <input type="text" placeholder="Enter your name" required autofocus>
+                <input name="name" type="text" placeholder="Enter your name" required autofocus>
               </div>
               <div class="input-box">
                 <span class="detail">University Roll Number</span>
-                <input type="text" placeholder="2KXX/XX/XXX" required>
+                <input name="rollNumber" type="text" placeholder="2KXX/XX/XXX" required>
               </div>
               <div class="input-box">
                 <span class="detail">Email</span>
-                <input type="email" placeholder="abc@xyz.com" required>
+                <input name="email" type="email" placeholder="abc@xyz.com" required>
               </div>
               <div class="input-box">
                 <span class="detail">Phone Number</span>
-                <input type="text" placeholder="Enter your number" required>
+                <input name="phoneNumber" type="text" placeholder="Enter your number" required>
               </div>
               <div class="input-box">
                 <span class="detail">Year Of Study</span>
-                <input type="text" placeholder="Enter your year of study (eg. first)" required>
+                <input name="yearOfStudy" type="text" placeholder="Enter your year of study (eg. first)" required>
               </div>
               <div class="input-box">
                 <span class="detail">Course</span>
-                <input type="text" placeholder="Enter your Course (eg. Btech Regular)" required>
+                <input name="course" type="text" placeholder="Enter your Course (eg. Btech Regular)" required>
               </div>
             </div>
             <!--Questions--->
             <div class="details">
               <div class="input-box2">
                 <span class="detail">Why do you want to join NSS DTU?</span>
-                <textarea required></textarea>
+                <textarea name="ques1" required></textarea>
               </div>
               <div class="input-box2">
                 <span class="detail">Briefly describe any current social issue which concerns you. Keeping in mind the current scenario, suggest how this social issue can be taken up by NSS DTU? Note: Be realistic in your approach. </span>
-                <textarea required></textarea>
+                <textarea name="ques2" required></textarea>
               </div>
               <div class="input-box2">
                 <span class="detail">According to you, how many hours can you contribute weekly towards different activities of NSS DTU?</span>
-                <textarea required></textarea>
+                <textarea name="ques3" required></textarea>
               </div>
               <div class="input-box2">
                 <span class="detail">List down any past experience that you might have of activities pertaining to social service & describe your role in the same. (Write NA if not applicable)</span>
-                <textarea></textarea>
+                <textarea name="ques4"></textarea>
               </div>
               <div class="input-box2">
                 <span class="detail">Mention any questions you might have for us.</span>
-                <textarea></textarea>
+                <textarea name="ques5"></textarea>
               </div>
             </div>
             <!--sLOT-->
             <div class="slotdetails">
             <div class="slots">
               <span class="slot-mention">Choose preferred timings for the interview on 21/01/2022</span><br>
-              <input type="checkbox" id="slot1" value="10AM to 12PM">
+              <input name="slot1" type="checkbox" id="slot1" value="10AM to 12PM">
               <label for="slot1"> 10 A.M. to 12 P.M.</label><br>
-              <input type="checkbox" id="slot2" value="12PM to 2PM">
+              <input name="slot1" type="checkbox" id="slot2" value="12PM to 2PM">
               <label for="slot2"> 12 P.M. to 2 P.M.</label><br>
-              <input type="checkbox" id="slot3" value="2PM to 4PM">
+              <input name="slot1" type="checkbox" id="slot3" value="2PM to 4PM">
               <label for="slot3"> 2 P.M. to 4 P.M.</label><br>
-              <input type="checkbox" id="slot4" value="4PM to 6PM">
+              <input name="slot1" type="checkbox" id="slot4" value="4PM to 6PM">
               <label for="slot4"> 4 P.M. to 6 P.M.</label><br>
-              <input type="checkbox" id="slot5" value="6PM to 8PM">
+              <input name="slot1" type="checkbox" id="slot5" value="6PM to 8PM">
               <label for="slot5"> 6 P.M. to 8 P.M.</label><br>
             </div>
             <div class="slots"><br><br>
               <span class="slot-mention">Choose preferred timings for the interview on 22/01/2022</span><br>
-              <input type="checkbox" id="slot6" value="10AM to 12PM">
+              <input name="slot2" type="checkbox" id="slot6" value="10AM to 12PM">
               <label for="slot6"> 10 A.M. to 12 P.M.</label><br>
-              <input type="checkbox" id="slot7" value="12PM to 2PM">
+              <input name="slot2" type="checkbox" id="slot7" value="12PM to 2PM">
               <label for="slot7"> 12 P.M. to 2 P.M.</label><br>
-              <input type="checkbox" id="slot8" value="2PM to 4PM">
+              <input name="slot2" type="checkbox" id="slot8" value="2PM to 4PM">
               <label for="slot8"> 2 P.M. to 4 P.M.</label><br>
-              <input type="checkbox" id="slot9" value="4PM to 6PM">
+              <input name="slot2" type="checkbox" id="slot9" value="4PM to 6PM">
               <label for="slot9"> 4 P.M. to 6 P.M.</label><br>
-              <input type="checkbox" id="slot10" value="6PM to 8PM">
+              <input name="slot2" type="checkbox" id="slot10" value="6PM to 8PM">
               <label for="slot10"> 6 P.M. to 8 P.M.</label><br>
             </div>
           </div>
