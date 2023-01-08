@@ -8,7 +8,7 @@ router.get('/about',homeController.about);
 router.get('/initiatives',homeController.initiatives);
 router.get('/events',homeController.events);
 router.get('/team',homeController.team);
-router.get('/kartavya',homeController.kartavya);
+// router.get('/kartavya',homeController.kartavya);
 router.get('/contact',homeController.contact);
 router.get('/recruitment',homeController.recruitment);
 router.post('/recruitmentCapture',homeController.submit);
